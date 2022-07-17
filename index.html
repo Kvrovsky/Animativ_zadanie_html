@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://allfont.net/allfont.css?fonts=sintony-bold"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury restaurant</title>
+  </head>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"
+  >
+         var splide = new Splide( '.splide', {
+      type   : 'loop',
+      rewind:true,
+      start:3,
+      perPage: 2,
+      perMove: 1,
+     
+    } );
+
+    splide.mount();
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var splide = new Splide(".splide");
+      splide.mount();
+      
+    });
+  </script>
+  <body>
+    <div>
+      <div id="imga">
+        <div class="container">
+          <div class="header">
+            <nav>
+              <ul>
+                <a class="logo"> LUXURY ||</a>
+                <a> HOME </a>
+                <a> MENU </a>
+                <a> RESERVATION </a>
+                <a> RECIPE </a>
+                <a> BLOG </a>
+                <a>PAGES</a>
+                <a>CONTACT</a>
+                <a class="cart"></a>
+                <a class="booking">Book your Table</a>
+              </ul>
+            </nav>
+          </div>
+          <div class="slider">
+            <span class="left-span">&#8249;</span>
+            <span class="right-span">&#8250;</span>
+            <div class="slider-text-container">
+              <div class="slider-text">
+                Teast your fav dish from luxury restaurant
+                <div class="logo-text">
+                  <img src="icon_phone.png" class="phone-icon" />
+                  <a style="color: #fea100">CALL US AND BOOK YOUR TABLE</a>
+                  <a id="phone-number">1-008 005 006</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="food-menu">
+        <a>Food Menu</a><br />
+
+        <div class="offer">
+          <a> ULTIMATE ORGANIC FRUIT SALAD </a><br />
+          <a> survived not only five centuries but the leap </a><br />
+        </div>
+        <div class="prices">
+          <a>$50.00</a>
+        </div>
+        <div class="offer">
+          <a> PLAIN PANCAKES </a><br />
+          <a> Donec eget augue at diam euismod viverra </a><br />
+        </div>
+        <div class="prices">
+          <a>$68.00</a>
+        </div>
+        <div class="offer">
+          <a> TOASTED JAM </a><br />
+          <a> Phasellus a ex accumsan, sollicitudin </a><br />
+        </div>
+        <div class="prices">
+          <a>$22.00</a>
+        </div>
+        <div class="offer">
+          <a> TOASTED JAM </a><br />
+          <a> Phasellus a ex accumsan, sollicitudin </a><br />
+        </div>
+        <div class="prices">
+          <a>$39.00</a>
+        </div>
+        <div class="explore-menu"><a> EXPLORE FOOD MENU </a><br /></div>
+      </div>
+      <div class="Today-Special">
+        <a id="Today-special-txt">Today Special</a><br />
+        <div>
+          <div class="special-offer-content">
+            <div class="image-special"></div>
+            <div class="image-special-price">
+              <!-- <div class="offer-special">
+                <a> Pizza Marinara </a>
+              </div>
+              <div class="prices-special">
+                <a>$68.00</a>
+              </div> -->
+              <a> Pizza Marinara</a><br />
+              <a> $89.00</a>
+            </div>
+          </div>
+          <div class="special-offer-content2">
+            <div class="image-special2"></div>
+            <div class="image-special-price">
+              <a> Chicken Noodles</a><br />
+              <a> $89.00</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bck-img">
+      <div class="container3">
+        <div class="reservation-form">
+          <a>Reserve your table</a>
+          <form action="" class="form-inline">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              style="float: left"
+            />
+            <input
+              type="time"
+              id="time"
+              name="time"
+              placeholder="Time"
+              style="float: left"
+            />
+            <input
+              type="text"
+              id="gusets"
+              name="Guests"
+              placeholder="Guests"
+              style="float: left"
+            /><br />
+
+            <input
+              type="email"
+              id="Email"
+              name="Email"
+              placeholder="Email Address"
+              style="float: right"
+            />
+            <input
+              type="date"
+              id="date"
+              name="Date"
+              placeholder="Date"
+              style="float: right"
+            />
+            <input
+              type="tel"
+              id="phone"
+              name="Phone"
+              placeholder="Phone Number"
+              style="float: right"
+            />
+
+            <input type="submit" value="Make Reservation" id="reserve" />
+            <a>YOU CAN ALSO CALL FOR A RESERVATION 1-007 000 005</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div>
+        <div class="Clients-text">
+          <div class="clients-img"></div>
+          <a>Happy Clients</a><br>
+          <p>Best atmosphere and food</p><br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae assumenda soluta natus corporis minus iure, voluptates minima doloribus sapiente nisi?</p>
+          <p>DR PRABAKARAN JHON</p><br>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="splide" role="group" aria-label="Splide Basic HTML Example"  data-splide='{"type":"loop","perPage":1}'>
+        <div class="splide__track bg-dark" >
+          <ul class="splide__list" style="height:340px; width: 471px;">
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(122, 190, 253);"><div class="gallery-img-text"><p>IMAGE 1</p></div></li>
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(49, 172, 243);"><div class="gallery-img-text"><p>IMAGE 2</p></div></li>
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(37, 122, 248);"><div class="gallery-img-text"><p>IMAGE 3</p></div></li>
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(27, 67, 247);"><div class="gallery-img-text"><p>IMAGE 4</p></div></li>
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(44, 40, 240);"><div class="gallery-img-text"><p>IMAGE 5</p></div></li>
+            <li class="splide__slide"><div class="gallery-img" style="background-color:rgb(38, 0, 255);"><div class="gallery-img-text"><p>IMAGE 6</p></div></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="page6">
+      <div class="container4">
+          <div class="open">
+              Opening Hours
+          </div>
+          <div class="monday">
+              Monday to Friday <br>
+              <span class="orange">10am - 10pm</span>
+          </div>
+          <div class="saturday">
+              Saturday to Sunday <br>
+              <span class="orange">09am - 11pm</span>
+          </div>
+          <div class="image210x210">
+              IMAGE <br>
+              210 X 210
+          </div>
+      </div>
+
+
+
+
+  </div>
+
+
+  <!-- LAST PAGE FOOTER -->
+
+  <footer>
+      <div class="container4">
+          <div class="sector1">
+              <p class="white_color">Navigation</p>
+              <nav class="footer">
+                  <ul>
+                      <li> <a href="/home/">Home</a></li>
+                      <li> <a href="/menu/">Menu</a></li>
+                      <li> <a href="/reservation/">Reservation</a></li>
+                      <li> <a href="/recipe/">Recipe</a></li>
+                      <li> <a href="/blog/">Blog</a></li>
+                      <li> <a href="/pages/">Pages</a></li>
+                      <li> <a href="/contact/">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
+          <div class="sector2">
+              <p class="white_color">News letter</p> </br>
+              Enter your email address and subscribe daily newsletter
+              <form action="newsletter">
+
+                  <input type="email" class="email" name="Email Address" value="Email Address">
+                  <input class="sub" type="submit" value="SUBSCRIBE">
+              </form>
+              </br>
+
+              <button class="darkblue">?</button>
+              <button class="lightblue">?</button>
+              <button class="red">?</button>
+
+          </div>
+
+          <div class="sector3">
+              <p class="white_color">Our app available</p>
+              </br>
+              <a href="/appstore/">
+                  <button class="app">
+                      <img src="images/icon_apple.png" alt="App Store">
+                      <span class="fbuttontext">Avaible on the <br> <span class="large">App Store</span> </span>
+                  </button>
+              </a>
+              </br>
+              </br>
+              <a href="/googleplay/">
+                  <button class="app">
+                      <img src="images/icon_Google Play.png" alt="Google Play">
+                      <span class="fbuttontext">Get in on <br> <span class="large">Google Play</span> </span>
+                  </button>
+              </a>
+              </br>
+          </div>
+      </div>
+      <div class="end">
+          2016 © <span class="luxury">LUXURY RESTAURANT,</span> ALL RIGHTS RESERVED
+      </div>
+
+
+  </footer>
+  </body>
+</html>
