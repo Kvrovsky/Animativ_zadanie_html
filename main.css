@@ -13,7 +13,9 @@ body {
   text-align: center;
   margin: 0 auto;
   z-index: 2;
-  border: 5px solid #ffff00;
+}
+.slider {
+  position: absolute;
 }
 #imga {
   top: 0px;
@@ -288,8 +290,8 @@ body {
   margin-left: 22px;
 }
 .gallery-img{
-  width: 471px;
-  height: 340px;
+  width: 100%;
+  height: 540px;
  
 }
 .gallery-img-text{
@@ -462,7 +464,7 @@ h3 {
 footer {
   top: 3333px;
   left: 0px;
-  width: 1970px;
+  width: 1920px;
   height: 510px;
   background: #373844 0% 0% no-repeat padding-box;
   color: #ADB2B7;
@@ -483,7 +485,7 @@ li a {
 
 a {
   text-decoration: none;
-  color: #ADB2B7;
+
 }
 
 footer .app {
@@ -579,7 +581,7 @@ input .email {
   color: #FFFFFF;
 }
 
-footer .container3 {
+footer .container4 {
   padding-top: 100px;
 }
 
@@ -621,4 +623,7 @@ footer .container3 {
 
 .large {
   font-size: 18px;
+}
+.splide{
+  z-index: 1;
 }
