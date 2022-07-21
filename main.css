@@ -8,6 +8,9 @@
 body {
   margin: 0 0;
 }
+.header a { 
+  font-size: 24px;
+}
 .container {
   width: 1169px;
   text-align: center;
@@ -32,12 +35,12 @@ body {
   left: 400px;
   width: 100%;
   opacity: 1;
-  border: 5px solid #ca3c3c;
+  
 }
 .container a {
   font-family: "Sintony Bold", arial;
 
-  font-size: 14px;
+  font-size: 18px;
   color: white;
   padding-right: 10px;
 }
@@ -97,7 +100,7 @@ body {
   top: 50%;
   height: 292px;
   transform: translate(-50%, -50%);
-  border: 5px solid #ffff00;
+
   padding: 10px;
   display: flex;
   align-items: center;
@@ -130,14 +133,14 @@ body {
   text-align: center;
   margin: 0 auto;
   z-index: 2;
-  border: 5px solid #ffff00;
+
   height: 100%;
   overflow: hidden;
 }
 .food-menu {
   float: left;
   width: 49%;
-  border: 5px solid #5f177c;
+
   overflow: hidden;
 }
 
@@ -146,7 +149,7 @@ body {
 }
 .offer {
   width: 70%;
-  border: 5px solid #ba0af09c;
+
   overflow: hidden;
   float: left;
 }
@@ -154,17 +157,17 @@ body {
   float: right;
   width: 20%;
   margin-left: 30px;
-  border: 5px solid #eeb6ff9c;
+
 }
 .explore-menu {
   width: 70%;
-  border: 5px solid #ba0af09c;
+
   overflow: hidden;
   float: left;
 }
 .explore-menu a {
   margin: 20px 20px;
-  border: 5px solid #fea100;
+
   background-color: #fea100;
   border-radius: 5px;
 }
@@ -172,7 +175,7 @@ body {
   position: relative;
   float: right;
   width: 49%;
-  border: 5px solid #8b8b00;
+
   overflow: hidden;
   height: 410px;
 }
@@ -183,10 +186,10 @@ body {
   width: 320px;
   height: 335px;
   z-index: 2;
-  border: 5px solid #8b8b00;
+
 }
 .special-offer-content2 {
-  border: 5px solid #d4d491;
+
   position: absolute;
   right: 20px;
   top: 70px;
@@ -210,7 +213,7 @@ body {
   z-index: 1;
 }
 .image-special-price {
-  background-color: #ffffff;
+  background-color: #bebebe;
   width: 100%;
   bottom: 0px;
   position: absolute;
@@ -231,12 +234,12 @@ body {
 #Today-special-txt {
 }
 .container3 {
-  border: 5px solid #8b8b00;
+
   width: 1366px;
   text-align: center;
   margin: 0 auto;
   z-index: 2;
-  border: 5px solid #ffff00;
+
   height: 100%;
 }
 #bck-img {
@@ -250,10 +253,11 @@ body {
   margin: 0 auto;
 }
 .reservation-form{
-  border: 5px solid #ffff00;
-  margin: 145px auto;
-  width: 600px;
+
+  margin: 150px 200px;
+  width: 60%;
   overflow: hidden;
+  position:absolute;
   
 }
 #reserve{
@@ -263,7 +267,7 @@ body {
   
 }
 .Clients-text{
-  border: 5px solid #45cc33;
+
   width: 60%;
   margin: 0 auto;
   overflow: hidden;
@@ -477,6 +481,9 @@ footer {
 
 ul {
   list-style-type: none;
+  width: 100%;
+  margin:0;
+  padding-top: 20px;
 }
 
 li a {
@@ -515,7 +522,7 @@ footer .app {
 .email {
   width: 311px;
   height: 51px;
-  border: 2px solid #52535E;
+
   border-radius: 4px;
   background-color: #373844;
 
